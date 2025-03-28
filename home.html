@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GYM website example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+  <body>
+
+
+    <!-- HEADER -->
+
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark spacep">
+        <div class="container-fluid">
+          <a class="navbar-brand logo-size" href="#">G<span class="text-danger">Y</span>M</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#abou">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button btn-danger" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button btn-danger" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button btn-danger" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button btn-danger" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/cur1.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Strength builds resilience</h5>
+              <p>Strength is built through persistence, pushing limits, overcoming struggles, and embracing every challenge daily.
+              </p>
+              <p><a href="#" class="btn btn-danger">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/cur3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Discipline fuels success.</h5>
+              <p>Discipline is the key to consistency, staying committed, showing up, and never making excuses.</p>
+              <p><a href="#" class="btn btn-danger">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/cur2.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Endurance pushes limits.</h5>
+              <p>Endurance develops with patience, hard work, mental toughness, and the ability to keep going strong.</p>
+              <p><a href="#" class="btn btn-danger">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/cur4.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conquer every challenge. 💪🔥</h5>
+              <p>Conquer every obstacle, crush your doubts, break barriers, and emerge stronger than ever before. 💪🔥</p>
+              <p><a href="#" class="btn btn-danger">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- about section  -->
+
+        <section id="abou">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="text-danger">About Us</h2>
+                        <p class="text-muted
+                            ">We are a team of fitness enthusiasts who are passionate about helping people achieve their fitness goals. Our mission is to provide you with the tools and support you need to reach your full potential and live a healthy, active lifestyle. Whether you're looking to lose weight, build muscle, or improve your overall health, we're here to help you every step of the way. With our expert trainers, state-of-the-art equipment, and personalized training programs, we'll help you get in the best shape of your life. So what are you waiting for? Join us today and start your fitness journey!</p>
+                <p><a href="#" class="btn btn-danger">Learn More</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/about.jpg" class="img-fluid" alt="about">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services section  -->
+
+        <section id="services">
+            <div class="container">
+                <h2 class="text-danger">Our Services</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                    <img src="assets/img/ser1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Personal Training</h5>
+                    <p class="card-text">Our personal training programs are designed to help you achieve your fitness goals faster and more effectively. Whether you're looking to lose weight, build muscle, or improve your overall health, our expert trainers will create a personalized training program that's tailored to your needs and goals.</p>
+                    <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                       <div class="card">
+                    <img src="assets/img/ser2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Group Classes</h5>
+                    <p class="card-text">Our group classes are a fun and effective way to get in shape, stay motivated, and meet new people. Whether you're looking to improve your strength, flexibility, or endurance, our group classes offer a variety of workouts that are suitable for all fitness levels.</p>
+                    <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card">
+                    <img src="assets/img/ser3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title
+                    ">Nutrition Counseling</h5>
+                    <p class="card-text">Our nutrition counseling services are designed to help you make healthier food choices, improve your eating habits, and achieve your weight loss goals. Whether you're looking to lose weight, gain muscle, or improve your overall health, our nutritionists will create a personalized meal plan that's tailored to your needs and goals.</p>
+                    <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/img/ser4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Strength Training</h5>
+                                <p class="card-text">Our strength training programs focus on building muscle, increasing power, and improving overall strength. With state-of-the-art equipment and expert guidance, we'll help you develop proper form and technique while progressively challenging your limits.</p>
+                                <a href="#" class="btn btn-danger">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/img/ser5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Yoga & Flexibility</h5>
+                                <p class="card-text">Transform your body and mind with our yoga and flexibility classes. Our certified instructors will guide you through poses and stretches that improve flexibility, reduce stress, enhance balance, and promote overall wellness through mindful movement.</p>
+                                <a href="#" class="btn btn-danger">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section  -->
+
+        <section id="portfolio" class="section-padding">
+            <div class="container">
+                <h2 class="text-danger text-center mb-5">Our Gym Portfolio</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="assets/img/port1.jpg" class="img-fluid" alt="State-of-the-art Equipment">
+                            <div class="portfolio-overlay">
+                                <h5>Modern Equipment</h5>
+                                <p>Latest fitness machines and equipment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="assets/img/port2.jpg" class="img-fluid" alt="Training Sessions">
+                            <div class="portfolio-overlay">
+                                <h5>Group Training</h5>
+                                <p>Energetic group workout sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="assets/img/port3.jpg" class="img-fluid" alt="Workout Space">
+                            <div class="portfolio-overlay">
+                                <h5>Spacious Environment</h5>
+                                <p>Well-maintained workout spaces</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Row -->
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="assets/img/port4.jpg" class="img-fluid" alt="Personal Training">
+                            <div class="portfolio-overlay">
+                                <h5>Personal Training</h5>
+                                <p>One-on-one training sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="assets/img/port5.jpg" class="img-fluid" alt="Cardio Area">
+                            <div class="portfolio-overlay">
+                                <h5>Cardio Zone</h5>
+                                <p>Advanced cardio equipment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="assets/img/port6.jpg" class="img-fluid" alt="Yoga Studio">
+                            <div class="portfolio-overlay">
+                                <h5>Yoga Studio</h5>
+                                <p>Peaceful yoga and stretching area</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials section  -->
+
+        <section id="testimonials" class="section-padding">
+            <div class="container">
+                <h2 class="text-danger text-center mb-5">What Our Clients Say</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="assets/img/testimonial1.jpg" alt="Client 1">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="rating mb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"The trainers here are exceptional! I've achieved results I never thought possible. The personalized attention and motivation keep me going strong."</p>
+                                <h5 class="client-name">Sarah Johnson</h5>
+                                <p class="client-info">Lost 30 lbs in 6 months</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="assets/img/testimonial2.jpg" alt="Client 2">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="rating mb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"The group classes are amazing! Great energy, awesome instructors, and a supportive community. I've never been more consistent with my workouts."</p>
+                                <h5 class="client-name">Mike Thompson</h5>
+                                <p class="client-info">Member since 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="assets/img/testimonial3.jpg" alt="Client 3">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="rating mb-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="testimonial-text">"The nutrition counseling completely changed my relationship with food. Combined with the training program, I've never felt better!"</p>
+                                <h5 class="client-name">Emily Rodriguez</h5>
+                                <p class="client-info">Gained 12 lbs muscle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- team section  -->
+
+        <section id="team" class="section-padding">
+            <div class="container">
+                <h2 class="text-danger text-center mb-5">Our Expert Trainers</h2>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="team-card">
+                            <div class="team-img">
+                                <img src="assets/img/trainer1.jpg" alt="Trainer" class="img-fluid">
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-info">
+                                <h5>John Davis</h5>
+                                <p>Head Trainer</p>
+                                <span>Specializes in Strength Training</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team-card">
+                            <div class="team-img">
+                                <img src="assets/img/trainer2.jpg" alt="Trainer" class="img-fluid">
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-info">
+                                <h5>Lisa Chen</h5>
+                                <p>Yoga Instructor</p>
+                                <span>Certified in Yoga & Meditation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team-card">
+                            <div class="team-img">
+                                <img src="assets/img/trainer3.jpg" alt="Trainer" class="img-fluid">
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-info">
+                                <h5>Marcus Wright</h5>
+                                <p>Fitness Coach</p>
+                                <span>Expert in HIIT & CrossFit</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team-card">
+                            <div class="team-img">
+                                <img src="assets/img/trainer4.jpg" alt="Trainer" class="img-fluid">
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-info">
+                                <h5>Sarah Miller</h5>
+                                <p>Nutritionist</p>
+                                <span>Certified Diet Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- pricing section  -->
+
+        <section id="pricing" class="section-padding">
+            <div class="container">
+                <h2 class="text-danger text-center mb-5">Membership Plans</h2>
+                <div class="row g-4">
+                    <!-- Basic Plan -->
+                    <div class="col-md-4">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Basic Plan</h3>
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">29</span>
+                                    <span class="period">/month</span>
+                                </div>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Access to Gym Floor</li>
+                                    <li><i class="fas fa-check"></i> Basic Equipment Usage</li>
+                                    <li><i class="fas fa-check"></i> Locker Room Access</li>
+                                    <li><i class="fas fa-check"></i> 2 Group Classes/Month</li>
+                                    <li class="disabled"><i class="fas fa-times"></i> Personal Training</li>
+                                    <li class="disabled"><i class="fas fa-times"></i> Nutrition Consultation</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#" class="btn btn-outline-danger">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Premium Plan -->
+                    <div class="col-md-4">
+                        <div class="pricing-card featured">
+                            <div class="popular-badge">Most Popular</div>
+                            <div class="pricing-header">
+                                <h3>Premium Plan</h3>
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">59</span>
+                                    <span class="period">/month</span>
+                                </div>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Unlimited Gym Access</li>
+                                    <li><i class="fas fa-check"></i> All Equipment Access</li>
+                                    <li><i class="fas fa-check"></i> Premium Locker Room</li>
+                                    <li><i class="fas fa-check"></i> Unlimited Group Classes</li>
+                                    <li><i class="fas fa-check"></i> 2 PT Sessions/Month</li>
+                                    <li class="disabled"><i class="fas fa-times"></i> Nutrition Plan</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#" class="btn btn-danger">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Elite Plan -->
+                    <div class="col-md-4">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Elite Plan</h3>
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">99</span>
+                                    <span class="period">/month</span>
+                                </div>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 24/7 Gym Access</li>
+                                    <li><i class="fas fa-check"></i> All Premium Features</li>
+                                    <li><i class="fas fa-check"></i> VIP Locker Room</li>
+                                    <li><i class="fas fa-check"></i> Unlimited Group Classes</li>
+                                    <li><i class="fas fa-check"></i> 4 PT Sessions/Month</li>
+                                    <li><i class="fas fa-check"></i> Custom Nutrition Plan</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#" class="btn btn-outline-danger">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- blog section -->
+
+        <section id="blog" class="section-padding">
+            <div class="container">
+                <h2 class="text-danger text-center mb-5">Latest Blog Posts</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="blog-card">
+                            <img src="assets/img/blog1.jpg" alt="Blog Post" class="img-fluid">
+                            <div class="blog-content">
+                                <h5>5 Tips for a Healthy Lifestyle</h5>
+                                <p>Discover the top 5 tips for maintaining a healthy lifestyle, including exercise, nutrition, and mental wellness.</p>
+                                <a href="#" class="btn btn-outline-danger">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-card">
+                            <img src="assets/img/blog2.jpg" alt="Blog Post" class="img-fluid">
+                            <div class="blog-content">
+                                <h5>How to Stay Motivated</h5>
+                                <p>Learn how to stay motivated and committed to your fitness goals, even when faced with challenges and setbacks.</p>
+                                <a href="#" class="btn btn-outline-danger">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-card">
+                            <img src="assets/img/blog3.jpg" alt="Blog Post" class="img-fluid">
+                            <div class="blog-content">
+                                <h5>Healthy Eating Habits</h5>
+                                <p>Explore the benefits of healthy eating habits and discover simple ways to improve your diet and nutrition.</p>
+                                <a href="#" class="btn btn-outline-danger">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+        <!-- FAQ section -->
+
+        <section id="faq" class="section-padding">
+            <div class="container">
+                <h2 class="text-danger text-center mb-5">Frequently Asked Questions</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion" id="faqAccordion">
+                            <!-- FAQ Item 1 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        <i class="fas fa-dumbbell me-2"></i>What are your gym's operating hours?
+                                    </button>
+                                </h3>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Our gym is open 24/7 for Elite members. Regular hours are Monday to Friday 5:00 AM - 11:00 PM, and weekends 6:00 AM - 10:00 PM. Holiday hours may vary.
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- FAQ Item 2 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        <i class="fas fa-user-friends me-2"></i>Do you offer personal training sessions?
+                                    </button>
+                                </h3>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Yes, we offer personalized training sessions with our certified trainers. You can choose from single sessions or packages, and each program is tailored to your specific goals.
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- FAQ Item 3 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        <i class="fas fa-calendar-alt me-2"></i>How do I schedule a class or training session?
+                                    </button>
+                                </h3>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        You can schedule classes through our mobile app or website. For personal training sessions, you can book directly with your trainer or through our front desk.
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- FAQ Item 4 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                        <i class="fas fa-hand-holding-usd me-2"></i>What's included in the membership?
+                                    </button>
+                                </h3>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Membership benefits vary by plan. Basic includes gym access and classes, Premium adds PT sessions, and Elite includes 24/7 access, nutrition planning, and VIP amenities.
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- FAQ Item 5 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                        <i class="fas fa-clock me-2"></i>Can I freeze my membership?
+                                    </button>
+                                </h3>
+                                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Yes, members can freeze their membership for up to 3 months per year. Contact our membership services team for details and conditions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <h2 class="text-danger text-center mb-5">Contact Us</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form id="contactForm" class="contact-form">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+
+        <footer class="footer-section">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="footer-widget">
+                        <h4>About GYM</h4>
+                        <p>We are dedicated to helping you achieve your fitness goals through expert training, state-of-the-art equipment, and a supportive community.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-widget">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="#pricing"><i class="fas fa-chevron-right"></i> Pricing</a></li>
+                            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-widget">
+                        <h4>Our Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Personal Training</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Group Classes</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Nutrition Planning</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Strength Training</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Yoga Classes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-widget">
+                        <h4>Contact Info</h4>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Gym City, GC 12345</p>
+                            <p><i class="fas fa-phone"></i> +880-1846960600</p>
+                            <p><i class="fas fa-envelope"></i> info@gymwebsite.com</p>
+                            <p><i class="fas fa-clock"></i> Mon - Fri: 5:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copyright">© siam. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

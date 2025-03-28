@@ -1,0 +1,213 @@
+/* Large Screens (1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large Devices (992px to 1199px) */
+@media (max-width: 1199px) {
+    .carousel-caption {
+        bottom: 180px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 45px;
+    }
+
+    .section-padding {
+        padding: 70px 0;
+    }
+}
+
+/* Medium Devices (768px to 991px) */
+@media (max-width: 991px) {
+    /* Navbar */
+    .navbar {
+        background: rgba(0, 0, 0, 0.95) !important;
+        padding: 15px 0;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border-color: #dc3545;
+    }
+
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.95);
+        padding: 20px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
+
+    /* Carousel */
+    .carousel-item {
+        height: 85vh;
+    }
+
+    .carousel-caption {
+        bottom: 140px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* Cards and Sections */
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .team-card, .pricing-card, .blog-card {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small Devices (576px to 767px) */
+@media (max-width: 767px) {
+    /* Carousel */
+    .carousel-item {
+        height: 70vh;
+    }
+
+    .carousel-caption {
+        bottom: 100px;
+        padding: 0 20px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    /* Section Headers */
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    /* Footer */
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom-links {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices (575px and below) */
+@media (max-width: 575px) {
+    /* Navbar */
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    /* Carousel */
+    .carousel-item {
+        height: 60vh;
+    }
+
+    .carousel-caption {
+        bottom: 80px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 22px;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    /* Cards */
+    .card-title {
+        font-size: 18px;
+    }
+
+    /* Forms */
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+/* Portrait Phones (400px and below) */
+@media (max-width: 400px) {
+    .carousel-item {
+        height: 50vh;
+    }
+
+    .carousel-caption {
+        bottom: 60px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .section-padding {
+        padding: 40px 0;
+    }
+}
+
+/* Landscape Mode */
+@media (max-height: 500px) and (orientation: landscape) {
+    .carousel-item {
+        height: 100vh;
+    }
+
+    .navbar-collapse {
+        max-height: 60vh;
+        overflow-y: auto;
+    }
+
+    .carousel-caption {
+        bottom: 40px;
+    }
+}
+
+/* High-Resolution Displays */
+@media (-webkit-min-device-pixel-ratio: 2), 
+       (min-resolution: 192dpi) {
+    img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .footer-section,
+    .carousel-controls,
+    .btn {
+        display: none;
+    }
+
+    .carousel-caption {
+        position: static;
+        color: #000;
+    }
+}
